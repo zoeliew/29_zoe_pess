@@ -102,7 +102,7 @@ if (!isset($_POST["btnProcessCall"]) && !isset($_POST["btnDispatch"]))
         value="<?php echo $_POST['callerName'] ?>"></td>
   </tr>
   <tr>
-    <td>Contact No :</td>
+    <td>Contact Number :</td>
     <td><?php echo $_POST['contactNo']?> <input
         type="hidden" name="contactNo" id="contactNo"
         value="<?php echo $_POST['contactNo']?>"></td>
